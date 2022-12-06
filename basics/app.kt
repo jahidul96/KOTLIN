@@ -2,5 +2,7 @@
 
 
 fun main () {
-    print(1234);
+    val roll = 19.5;
+    val a = "hell";
+    print(roll.toString() + a);
 }
