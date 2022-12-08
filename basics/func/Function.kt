@@ -4,11 +4,10 @@
  }
 
 
- fun isPrime( a : Int) : Boolean{
+public fun isPrime( a : Int) : Boolean{
     if(a <= 1){
         return false
     }
-
     var i = 2;
     while(i < a){
         if(a%i==0){
